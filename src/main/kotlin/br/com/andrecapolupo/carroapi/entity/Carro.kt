@@ -10,7 +10,8 @@ data class Carro(@Id var id: String?,
                  var marca: String,
                  var modelo: String,
                  var ano: Int,
-                 var placa: String){
+                 var placa: String,
+                 var urlImagen: String?){
 /*    constructor(): this(id:"",
                         marca:"",
                         modelo:"",
